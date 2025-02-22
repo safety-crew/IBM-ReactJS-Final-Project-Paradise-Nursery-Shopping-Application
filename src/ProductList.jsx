@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { addItem } from "./CreatSlice";
+import { addItem } from "./CreateSlice";
 import "./ProductList.css";
 
 function ProductList({ onViewCartClick }) {
